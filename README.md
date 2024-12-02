@@ -1,32 +1,29 @@
-Electrum-server for the Verge Electrum client
-=========================================
+.. image:: https://api.cirrus-ci.com/github/spesmilo/electrumx.svg?branch=master
+    :target: https://cirrus-ci.com/github/spesmilo/electrumx
+.. image:: https://coveralls.io/repos/github/spesmilo/electrumx/badge.svg
+    :target: https://coveralls.io/github/spesmilo/electrumx
 
-  * Author: Thomas Voegtlin
-  * Language: Python
+===============================================
+Electrum Verge Wallet (XVG)
+===============================================
 
-Features
---------
+  :Licence: MIT
+  :Language: Python (>= 3.8)
+  :Original Author: Neil Booth
 
-  * The server indexes UTXOs by address, in a Patricia tree structure
-    described by Alan Reiner (see the 'ultimate blockchain
-    compression' thread in the Bitcointalk forum)
+**Electrum Verge (XVG)** is a fast, secure, and privacy-focused wallet for Verge (XVG) with low transaction fees.  
 
-  * The server requires VERGEd, leveldb, and plyvel
+Features  
+=============
 
-  * The server code is open source. Anyone can run a server, removing
-    single points of failure concerns.
+- **Privacy-Focused**: Verge’s Wraith Protocol ensures optional private transactions.  
+- **Fast Transactions**: Lightning-fast transaction speeds with low fees.  
+- **Secure**: Hardware wallet and multi-signature support.  
+- **Lightweight**: Minimalist wallet with fast synchronization. 
 
-Installation
-------------
+License  
+=============
 
-  1. To install and run a server, see INSTALL. For greater
-     detail on the installation process, see HOWTO.md.
+This project is licensed under the MIT License. See the `LICENSE`_ for details.
 
-  2. To start and stop the server, use the 'electrum-server' script
-
-
-License
--------
-
-Electrum-server is made available under the terms of the MIT License.
-See the included `LICENSE` for more details.
+.. _LICENSE: https://github.com/Electrum-Verge/electrum-xvg/blob/master/LICENSE
