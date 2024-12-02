@@ -1,10 +1,9 @@
-===============================
 Electrum Verge Wallet (XVG)
 ===============================
 
-  :Licence: MIT
-  :Language: Python (>= 3.8)
-  :Original Author: Neil Booth
+:Licence: MIT
+:Language: Python (>= 3.8)
+:Original Author: Neil Booth
 
 **Electrum Verge (XVG)** is a fast, secure, and privacy-focused wallet for Verge (XVG) with low transaction fees.  
 
